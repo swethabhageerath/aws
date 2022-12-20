@@ -1,4 +1,4 @@
-module github.com/swethabhageerath/aws/aws
+module github.com/swethabhageerath/aws
 
 go 1.19
 
