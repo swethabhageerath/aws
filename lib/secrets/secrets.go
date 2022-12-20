@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/swethabhageerath/aws/aws/lib/models"
+	"github.com/swethabhageerath/aws/lib/models"
 	"github.com/swethabhageerath/logging/lib/constants"
 	mod "github.com/swethabhageerath/logging/lib/models"
 	"github.com/swethabhageerath/logging/lib/writers"
@@ -13,7 +13,7 @@ import (
 	cfg "github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
 	"github.com/pkg/errors"
-	er "github.com/swethabhageerath/aws/aws/lib/errors"
+	er "github.com/swethabhageerath/aws/lib/errors"
 )
 
 type Secrets struct{}
